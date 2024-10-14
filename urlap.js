@@ -3,9 +3,9 @@ function addCourse() {
     const newRow = document.createElement('tr');
 
     newRow.innerHTML = `
-        <td><input type="text" placeholder="Course"></td>
-        <td><input type="text" placeholder="Level"></td>
-        <td><input type="text" placeholder="Language"></td>
+        <td><input type="text" placeholder="Course" required></td>
+        <td><input type="text" placeholder="Level" required></td>
+        <td><input type="text" placeholder="Language" required></td>
         <td><input type="date"></td>
     `;
 
